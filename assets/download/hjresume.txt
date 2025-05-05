@@ -1,0 +1,37 @@
+Hey,
+I have 6 years plus extensive hands-on experience in React Native mobile app developer, JavaScript, React.js, HTML/CSS3, jQuery, and RESTful APIs. I specialize in developing high-performance mobile applications for Android & iOS, as well as responsive web design and development.
+
+Passionate about transforming complex ideas into intuitive and elegant user interfaces, I have successfully delivered over 100+ mobile applications across various industries. My problem-solving skills and innovative mindset help me craft seamless user experiences that engage and retain users.
+
+🛠 Technical Skills
+
+✅ Front-end & Mobile Development: React Native | Firebase | Google Cloud | Google Analytics | React.js | Payment Gateway | JavaScript | HTML5 | CSS3 | Bootstrap | jQuery | RESTful APIs | In-app Purchases | Push Notifications | Axios | CI/CD Pipelines | Automation Testing (Detox)
+✅ Back-end & Databases: MySQL | MongoDB | PostgreSQL | SQL Server
+✅ Development Tools & Editors: Android Studio | Xcode | Visual Studio Code | Postman | 3T Studio | Adobe XD | Figma | NetBeans | Sublime Text | Notepad++ |
+Photoshop | Figma | Microsoft Office | Postman API
+
+🚀 Professional Expertise
+
+- Mobile App Development: Extensive experience in building enterprise-level Android & iOS applications using React Native.
+- Web Development: Expertise in React.js for developing responsive and high-performance web applications.
+- Dark Mode & Theming: Strong experience in implementing dark mode themes for mobile applications.
+- Deployment & Optimization: Skilled in App Store & Play Store deployment, ensuring smooth publishing and updates.
+- Project Leadership: Experience leading development teams, collaborating with cross-functional teams, and delivering projects within deadlines.
+
+🎯 Key Traits
+
+✅ Innovative Problem-Solver
+✅ Team Player & Communicator
+✅ Detail-Oriented & Organized
+✅ Continuous Learner & Tech Enthusiast
+
+🌟 Achievements
+
+🏆 Contributed to the development of 100+ mobile applications, delivering seamless solutions across various industries.
+🏆 Successfully converted HTML themes into React.js websites, enhancing performance and responsiveness.
+🏆 Built and deployed multiple enterprise-level mobile applications, optimizing user experience and functionality.
+
+📩 Let's Connect!
+
+Excited to collaborate on new projects and bring innovative ideas to life! Feel free to reach out to discuss opportunities.
+📧 Email: harshadjariwala1998@gmail.com
