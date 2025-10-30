@@ -1,35 +1,105 @@
-Hey,
-I have 6 years plus extensive hands-on experience in React Native mobile app developer, JavaScript, React.js, HTML/CSS3, jQuery, and RESTful APIs. I specialize in developing high-performance mobile applications for Android & iOS, as well as responsive web design and development.
+Harshad Jariwala
 
-Passionate about transforming complex ideas into intuitive and elegant user interfaces, I have successfully delivered over 100+ mobile applications across various industries. My problem-solving skills and innovative mindset help me craft seamless user experiences that engage and retain users.
+Senior React Native & React Developer | Full Stack JavaScript Engineer
+📧 Email: harshadjariwala1998@gmail.com
 
-🛠 Technical Skills
+🌐 Location: India
+💻 Availability: Part-time / Contract / Remote
 
-✅ Front-end & Mobile Development: React Native | Firebase | Google Cloud | Google Analytics | React.js | Payment Gateway | JavaScript | HTML5 | CSS3 | Bootstrap | jQuery | RESTful APIs | In-app Purchases | Push Notifications | Axios | CI/CD Pipelines | Automation Testing (Detox)
-✅ Back-end & Databases: MySQL | MongoDB | PostgreSQL | SQL Server
-✅ Development Tools & Editors: Android Studio | Xcode | Visual Studio Code | Postman | 3T Studio | Adobe XD | Figma | NetBeans | Sublime Text | Notepad++ |
-Photoshop | Figma | Microsoft Office | Postman API
+Professional Summary
 
-🚀 Professional Expertise
+✅ Top-Rated and Experienced React Native & React Developer with 6+ years of experience building high-quality, scalable, and visually appealing web and mobile applications.
+✅ Proven expertise in frontend development, cross-platform app creation, API integration, and UI/UX design.
+✅ Focused on delivering optimized performance, clean code architecture, and pixel-perfect user experiences from concept to deployment.
+✅ All aspects of the project will be created from the ground up using modern design principles, optimized for performance, swift loading times, and well-structured code. We will make sure that all requirements and expectations are met and exceeded.
 
-- Mobile App Development: Extensive experience in building enterprise-level Android & iOS applications using React Native.
-- Web Development: Expertise in React.js for developing responsive and high-performance web applications.
-- Dark Mode & Theming: Strong experience in implementing dark mode themes for mobile applications.
-- Deployment & Optimization: Skilled in App Store & Play Store deployment, ensuring smooth publishing and updates.
-- Project Leadership: Experience leading development teams, collaborating with cross-functional teams, and delivering projects within deadlines.
+Including Designing and Developing Skills set
 
-🎯 Key Traits
+✔️ Creating professional Websites. ( Based React Js, HTML ,CSS , JavaScript , Tailwind CSS , Ant Design , Material UI , Chakra UI ).
+✔️ Hybrid Applications ( Both android and iOS also based on React native language ).
+✔️ Innovative webapps ( Based React Js, Next JS , HTML ,CSS , JavaScript ).
+✔️ Web servers, RESTful APIs, real-time chat applications, single-page applications (SPAs) with Help of Node Js language.
+✔️ Building web applications, RESTful APIs with help of Express Js.
+✔️ E-commerce platforms, content management systems, SaaS applications in Laravel language
+✔️ Data storage for web applications, relational database management in MySQL language.
+✔️ SEO-friendly websites, static websites, complex web applications.
+✔️ Dynamic websites, content management systems, server-side scripting in PHP language. 
+✔️ Attractive Email templates ( E-mail template design and developing for newsletters ).
+✔️ Invitation cards ( Used skills UI/UX, Adobe photoshop, Figma , Adobe illustrator ).
+✔️ Landing pages ( Based React Js, HTML ,CSS , JavaScript ).
+✔️ SEO Service .
+✔️ To improve my development skills and take on new challenges, providing innovative solutions to clients,
+✔️ While being part of a dynamic team of developers where I can continue to learn and grow, making a valuable contribution to the company's success by utilizing my expertise in various programming languages and tools for creating, developing, and maintaining robust and efficient web and mobile applications .
 
-✅ Innovative Problem-Solver
-✅ Team Player & Communicator
-✅ Detail-Oriented & Organized
-✅ Continuous Learner & Tech Enthusiast
+⚙️ Core Expertise
 
-🌟 Achievements
+Frontend Development:
+✅ React.js
+➔ Building Single Page Applications (SPA) with React
+➔ Expertise in Functional Components, Hooks, Contexts, and Pure Components
+➔ Unit & Integration Testing with Jest and Enzyme
+➔ Using modern UI frameworks like Ant-Design, Material-UI, and Semantic-UI
+➔ Writing extensible, maintainable code with Typescript
+➔ State Management with Redux and Thunk
 
-🏆 Contributed to the development of 100+ mobile applications, delivering seamless solutions across various industries.
-🏆 Successfully converted HTML themes into React.js websites, enhancing performance and responsiveness.
-🏆 Built and deployed multiple enterprise-level mobile applications, optimizing user experience and functionality.
+Mobile App Development:
+✅ React Native
+➔ Passionate about building cross-platform mobile apps
+➔ Firebase, Push Notifications, API Integration, and Real-time Features
+
+UI Design:
+✅ High Fidelity UI Designs with Adobe XD and Figma
+➔ Creating high-fidelity, user-centered designs for both mobile and web
+➔ Email Templates, Landing Pages, Invitation Designs
+
+Version Control:
+✅ Git, GitHub, GitLab
+➔ Managing code repositories, pull requests, and build pipelines
+➔ Engaging in code review and collaboration processes
+
+Backend & API:
+✅ Node JS, Nest JS
+➔ RESTful API development, real-time chat, server-side scripting
+➔ Database: MongoDB, Firebase, Google Cloud
+
+My Services :
+
+💼 JS frameworks: React / VueJS
+💼 React native
+💼 Firebase
+💼 Google Cloud
+💼 HTML5 / HTML
+💼 CSS/ CSS3
+💼 JavaScript
+💼 jQuery
+💼 RESTful APIs
+💼 Push Notifications
+💼 Node js
+💼 Next js
+💼 Nest js
+💼 Bootstrap
+💼 Material UI
+💼 Tailwind CSS
+💼 Template Development / Designing
+💼 Development from scratch
+💼 UX/UI and web/App design
+💼 GIT / GitDesktop
+💼 A component-based approach to web development
+💼 SVG handling
+💼 Adobe XD / Figma
+💼 Clean, valid, responsive, maintainable, well-commented code
+💼 E-commerce
+
+Reaping the Advantages of the Position :
+
+⭐ Excellence of Work .
+⭐ Responsive Web/App Design.
+⭐ Interactive Web Development.
+⭐ A Style of Work That is Creative and Attention to Detail-Oriented..
+⭐ Communicating on a Daily Basis Based on the Client's Time Zone..
+⭐ Providing Regular Updates on the Results.
+⭐ Adhering to Deadlines Rigorously.
+⭐ Establishing and Maintaining Strong and Long-Term Client Relationships.
 
 📩 Let's Connect!
 
