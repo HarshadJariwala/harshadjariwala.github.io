@@ -1356,3 +1356,10 @@ textarea.field-input { resize: vertical; min-height: 140px; }
   .skill-panel.active { grid-template-columns: repeat(2, 1fr); }
   .hero-metrics { flex-direction: column; gap: 16px; }
 }
+
+/* ---- Toast Notifications ---- */
+#toast.show {
+  opacity: 1 !important;
+  pointer-events: auto !important;
+  transform: translateY(0) !important;
+}
