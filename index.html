@@ -4,8 +4,8 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Harshad Jariwala — Senior React Native & React JS Developer</title>
-  <meta name="description" content="Harshad Jariwala is a Senior React Native & React JS Developer with 7+ years of experience building scalable mobile and web applications from Surat, India.">
+  <title>Harshad Jariwala — Full Stack &amp; Web and Mobile Developer</title>
+  <meta name="description" content="Harshad Jariwala is a Full Stack &amp; Web and Mobile Developer with 7+ years of experience building scalable mobile and web applications from Surat, India.">
 
   <link rel="shortcut icon" type="image/icon" href="assets/logo/favicon.png" />
 
@@ -80,7 +80,7 @@
         </h1>
 
         <p class="hero-sub">
-          Senior React Native &amp; React JS Developer with 7+ years of experience
+          Full Stack &amp; Web and Mobile Developer with 7+ years of experience
           creating high-performance, user-centric digital solutions that people love.
         </p>
 
@@ -122,7 +122,7 @@
           <div class="terminal-body">
             <div><span class="t-kw">const</span> <span class="t-fn">developer</span> <span class="t-op">=</span> <span class="t-op">{</span></div>
             <div class="t-indent"><span class="t-prop">name</span><span class="t-op">:</span> <span class="t-str">"Harshad Jariwala"</span><span class="t-op">,</span></div>
-            <div class="t-indent"><span class="t-prop">role</span><span class="t-op">:</span> <span class="t-str">"Sr. React Native Developer"</span><span class="t-op">,</span></div>
+            <div class="t-indent"><span class="t-prop">role</span><span class="t-op">:</span> <span class="t-str">"Full Stack &amp; Web and Mobile Developer"</span><span class="t-op">,</span></div>
             <div class="t-indent"><span class="t-prop">location</span><span class="t-op">:</span> <span class="t-str">"Surat, India 🇮🇳"</span><span class="t-op">,</span></div>
             <div class="t-indent"><span class="t-prop">experience</span><span class="t-op">:</span> <span class="t-str">"7+ years"</span><span class="t-op">,</span></div>
             <div class="t-indent"><span class="t-prop">apps_delivered</span><span class="t-op">:</span> <span class="t-num">100</span><span class="t-op">,</span></div>
@@ -160,7 +160,7 @@
     <div class="about-grid">
       <div class="about-img-wrap reveal">
         <div class="about-img-frame">
-          <img src="assets/images/about/profile_image.jpg" alt="Harshad Jariwala — Senior React Native Developer">
+          <img src="assets/images/about/profile_image.png" alt="Harshad Jariwala — Full Stack &amp; Web and Mobile Developer">
         </div>
         <div class="about-floating-card">
           <div class="badge-icon">🏆</div>
@@ -173,7 +173,7 @@
 
       <div class="about-text reveal">
         <p>
-          I'm a Senior React Native &amp; React.js Developer with 7+ years of extensive
+          I'm a Full Stack &amp; Web and Mobile Developer with 7+ years of extensive
           hands-on experience in building high-quality, scalable, and user-centric digital solutions.
         </p>
         <p>
@@ -631,36 +631,35 @@
 
       <!-- Right: Form -->
       <div class="g-card contact-form-wrap reveal">
-        <form id="contactForm" novalidate>
+        <form id="contactForm" action="https://formsubmit.co/harshadjariwala1998@gmail.com" method="POST" novalidate>
           <div class="form-grid-2">
             <div class="field">
-              <label for="fullName">Full Name *</label>
-              <input type="text" id="fullName" name="fullName" class="field-input" placeholder="John Doe" required>
+              <label for="fname">Full Name *</label>
+              <input type="text" id="fname" name="name" class="field-input" placeholder="John Doe" required>
+              <span class="error-msg" id="fname-err" style="display:none; color:#fb7185; font-size:0.75rem; margin-top:4px;">Please enter your name</span>
             </div>
             <div class="field">
-              <label for="emailAddress">Email Address *</label>
-              <input type="email" id="emailAddress" name="emailAddress" class="field-input" placeholder="john@example.com" required>
+              <label for="femail">Email Address *</label>
+              <input type="email" id="femail" name="email" class="field-input" placeholder="john@example.com" required>
+              <span class="error-msg" id="femail-err" style="display:none; color:#fb7185; font-size:0.75rem; margin-top:4px;">Please enter a valid email address</span>
             </div>
           </div>
 
           <div class="field">
-            <label for="subject">Subject *</label>
-            <input type="text" id="subject" name="subject" class="field-input" placeholder="Project Collaboration / Job Opportunity" required>
+            <label for="fsubject">Subject *</label>
+            <input type="text" id="fsubject" name="subject" class="field-input" placeholder="Project Collaboration / Job Opportunity" required>
+            <span class="error-msg" id="fsubject-err" style="display:none; color:#fb7185; font-size:0.75rem; margin-top:4px;">Please enter a subject</span>
           </div>
 
           <div class="field">
-            <label for="message">Message *</label>
-            <textarea id="message" name="message" class="field-input" placeholder="Tell me about your project or opportunity..." required></textarea>
+            <label for="fmessage">Message *</label>
+            <textarea id="fmessage" name="message" class="field-input" placeholder="Tell me about your project or opportunity..." required></textarea>
+            <span class="error-msg" id="fmessage-err" style="display:none; color:#fb7185; font-size:0.75rem; margin-top:4px;">Please enter your message</span>
           </div>
 
-          <button type="submit" class="form-submit-btn" id="btn-send">
-            <i class="fa fa-paper-plane-o"></i> Send Message
+          <button type="submit" class="form-submit-btn" id="sendBtn">
+            Send Message <i class="fa fa-paper-plane-o"></i>
           </button>
-
-          <div class="form-success-msg" id="formSuccess">
-            <i class="fa fa-check-circle"></i>
-            Your message was sent successfully! I'll get back to you soon.
-          </div>
         </form>
       </div>
     </div>
@@ -672,7 +671,7 @@
      ================================================================ -->
 <footer class="site-footer">
   <div class="container">
-    <p>© 2026 <a href="#home">Harshad Jariwala</a> — All rights reserved. Built with ❤️ in Surat, India.</p>
+    <p>© 2026 <a href="#home">Harshad Jariwala</a> — All rights reserved. Built with ❤️ in India.</p>
   </div>
 </footer>
 
@@ -780,35 +779,66 @@ const skillObs = new IntersectionObserver(entries => {
 }, { threshold: 0.15 });
 document.querySelectorAll('.skill-panel').forEach(p => skillObs.observe(p));
 
-/* ---- Contact Form ---- */
-const form       = document.getElementById('contactForm');
-const successMsg = document.getElementById('formSuccess');
-const sendBtn    = document.getElementById('btn-send');
+/* ---- Contact Form (with toast notifications & AJAX) ---- */
+const contactForm = document.getElementById('contactForm');
 
-form.addEventListener('submit', e => {
+async function saveContactToGoogleSheet(form) {
+  // Resolved promise by default so it doesn't block email submission
+  return Promise.resolve(true);
+}
+
+function renderIcons() {
+  // Font Awesome is processed via standard HTML classes, no-op needed
+}
+
+contactForm.addEventListener('submit', async function (e) {
   e.preventDefault();
+  e.stopPropagation();
+  const form = e.currentTarget;
+  const fields = [['fname', 'fname-err'], ['femail', 'femail-err'], ['fsubject', 'fsubject-err'], ['fmessage', 'fmessage-err']];
   let valid = true;
-  form.querySelectorAll('[required]').forEach(f => {
-    if (!f.value.trim()) {
-      valid = false;
-      f.classList.add('error');
-      f.addEventListener('input', () => f.classList.remove('error'), { once: true });
-    }
+  fields.forEach(([id, err]) => {
+    const el = document.getElementById(id);
+    const errEl = document.getElementById(err);
+    const empty = !el.value.trim();
+    const emailFail = id === 'femail' && el.value && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(el.value);
+    errEl.style.display = (empty || emailFail) ? 'block' : 'none';
+    if (empty || emailFail) valid = false;
   });
-  if (!valid) return;
-
-  sendBtn.innerHTML = '<i class="fa fa-spinner fa-spin"></i> Sending…';
-  sendBtn.disabled = true;
-
-  setTimeout(() => {
-    form.reset();
-    sendBtn.innerHTML = '<i class="fa fa-paper-plane-o"></i> Send Message';
-    sendBtn.disabled = false;
-    successMsg.style.display = 'flex';
-    setTimeout(() => { successMsg.style.display = 'none'; }, 6000);
-  }, 2000);
-});
+  if (valid) {
+    const btn = document.getElementById('sendBtn');
+    const toast = document.getElementById('toast');
+    btn.innerHTML = 'Sending...';
+    btn.disabled = true;
+    try {
+      const emailRequest = fetch('https://formsubmit.co/ajax/harshadjariwala1998@gmail.com', {
+        method: 'POST',
+        headers: { Accept: 'application/json' },
+        body: new FormData(form)
+      });
+      const [response] = await Promise.all([emailRequest, saveContactToGoogleSheet(form)]);
+      if (!response.ok) throw new Error('Message could not be sent');
+      form.reset();
+      toast.textContent = 'Message sent successfully! I will be in touch soon.';
+      toast.style.background = '#10b981';
+    } catch (error) {
+      console.error(error);
+      toast.textContent = 'Message could not be sent. Please try again or email me directly.';
+      toast.style.background = '#ef4444';
+    } finally {
+      btn.innerHTML = 'Send Message <i class="fa fa-paper-plane-o"></i>';
+      btn.disabled = false;
+      renderIcons();
+      document.getElementById('contact').scrollIntoView({ behavior: 'smooth', block: 'start' });
+      toast.classList.add('show');
+      setTimeout(() => toast.classList.remove('show'), 4000);
+    }
+  }
+}, true);
 </script>
+
+<!-- Toast Message -->
+<div id="toast" style="position:fixed; bottom:28px; right:28px; padding:16px 24px; border-radius:12px; color:#fff; font-weight:600; font-size:0.9rem; z-index:2000; opacity:0; pointer-events:none; transition:all 0.3s cubic-bezier(0.4, 0, 0.2, 1); transform:translateY(20px); box-shadow: 0 10px 30px rgba(0,0,0,0.3);"></div>
 
 </body>
 </html>
