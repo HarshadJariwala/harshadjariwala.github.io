@@ -1,14 +1,12 @@
 <!doctype html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Harshad Jariwala — React Native & React JS Developer</title>
-  <meta name="description" content="Harshad Jariwala is a Senior React Native & React JS Developer with 6+ years of experience building scalable mobile and web applications.">
+  <title>Harshad Jariwala — Senior React Native & React JS Developer</title>
+  <meta name="description" content="Harshad Jariwala is a Senior React Native & React JS Developer with 6+ years of experience building scalable mobile and web applications from Surat, India.">
 
-  <!-- Favicon -->
   <link rel="shortcut icon" type="image/icon" href="assets/logo/favicon.png" />
 
   <!-- Google Fonts -->
@@ -19,473 +17,474 @@
   <!-- Font Awesome -->
   <link rel="stylesheet" href="assets/css/font-awesome.min.css">
 
-  <!-- Modern CSS -->
+  <!-- Main CSS -->
   <link rel="stylesheet" href="assets/css/modern.css">
 </head>
-
 <body>
 
-<!-- ============================================================
+<!-- Ambient background orbs -->
+<div class="orb orb-1"></div>
+<div class="orb orb-2"></div>
+<div class="orb orb-3"></div>
+
+<!-- ================================================================
      NAVBAR
-     ============================================================ -->
-<nav class="modern-nav" id="mainNav">
-  <a href="#home" class="nav-brand">H J</a>
+     ================================================================ -->
+<nav class="site-nav" id="siteNav">
+  <div class="nav-inner">
+    <a href="#home" class="nav-brand">HJ</a>
 
-  <ul class="nav-links" id="navLinks">
-    <li><a href="#about"      id="nav-about">About</a></li>
-    <li><a href="#education"  id="nav-education">Education</a></li>
-    <li><a href="#skills"     id="nav-skills">Skills</a></li>
-    <li><a href="#experience" id="nav-experience">Experience</a></li>
-    <li><a href="#profiles"   id="nav-profiles">Profiles</a></li>
-    <li><a href="#portfolio"  id="nav-portfolio">Portfolio</a></li>
-    <li><a href="#contact"    id="nav-contact">Contact</a></li>
-  </ul>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about"      class="nav-link">About</a></li>
+      <li><a href="#skills"     class="nav-link">Skills</a></li>
+      <li><a href="#experience" class="nav-link">Experience</a></li>
+      <li><a href="#portfolio"  class="nav-link">Portfolio</a></li>
+      <li><a href="#education"  class="nav-link">Education</a></li>
+      <li><a href="#profiles"   class="nav-link">Profiles</a></li>
+    </ul>
 
-  <button class="nav-hamburger" id="hamburger" aria-label="Toggle navigation">
-    <span></span>
-    <span></span>
-    <span></span>
-  </button>
+    <a href="#contact" class="nav-cta">
+      <i class="fa fa-envelope-o"></i> Contact
+    </a>
+    <button class="nav-hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
 </nav>
 
-<!-- ============================================================
-     HERO SECTION
-     ============================================================ -->
+<!-- ================================================================
+     HERO
+     ================================================================ -->
 <section id="home" class="hero-section">
-  <div class="hero-bg"></div>
-  <div class="hero-overlay"></div>
+  <div class="container">
+    <div class="hero-grid">
 
-  <div class="hero-content">
-    <div class="hero-badge">🚀 Available for Opportunities</div>
+      <!-- Left: Text -->
+      <div class="hero-left reveal">
+        <div class="hero-badge">
+          <span class="dot"></span>
+          Available for Freelance &amp; Remote Opportunities
+        </div>
 
-    <h1 class="hero-title">
-      Hi, I'm<br>
-      <span class="name">Harshad Jariwala</span>
-    </h1>
+        <h1 class="hero-title">
+          Building <span class="grad-text-cb">Fast, Scalable</span> &amp;<br>
+          User-Centric Mobile &amp;<br>
+          <span class="grad-text-ip">Web Products</span>
+        </h1>
 
-    <p class="hero-sub">
-      Senior React Native &amp; React JS Developer with 6+ years crafting
-      high-performance mobile &amp; web experiences across Android, iOS &amp; Web.
-    </p>
+        <p class="hero-sub">
+          I'm Harshad Jariwala, a Senior React Native &amp; React JS Developer with
+          6+ years of experience creating scalable, user-focused digital solutions.
+          I transform ideas into modern, high-performance mobile and web apps.
+        </p>
 
-    <div class="hero-cta">
-      <a href="assets/download/hjresume.txt" download class="btn-primary-grad" id="btn-download-resume">
-        <i class="fa fa-download"></i> Download Resume
-      </a>
-      <a href="#contact" class="btn-outline-glass" id="btn-hire-me">
-        <i class="fa fa-envelope-o"></i> Hire Me
-      </a>
+        <div class="hero-btns">
+          <a href="#portfolio" class="btn-grad" id="btn-view-work">
+            <i class="fa fa-briefcase"></i> View My Work
+          </a>
+          <a href="#contact" class="btn-outline" id="btn-lets-connect">
+            Let's Connect
+          </a>
+        </div>
+
+        <div class="hero-stats">
+          <div>
+            <div class="hero-stat-num">6+</div>
+            <div class="hero-stat-label">Years Experience</div>
+          </div>
+          <div>
+            <div class="hero-stat-num">100+</div>
+            <div class="hero-stat-label">Apps Delivered</div>
+          </div>
+          <div>
+            <div class="hero-stat-num">50+</div>
+            <div class="hero-stat-label">Happy Clients</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right: Code Window -->
+      <div class="hero-right reveal">
+        <div class="hero-code-wrap">
+          <div class="float-badge">⚡ TypeScript</div>
+          <div class="code-window">
+            <div class="code-titlebar">
+              <div class="code-dot code-dot-r"></div>
+              <div class="code-dot code-dot-y"></div>
+              <div class="code-dot code-dot-g"></div>
+              <span class="code-filename">harshad.config.ts</span>
+            </div>
+            <div class="code-body">
+              <div><span class="code-kw">const</span> <span class="code-var">developer</span> <span class="code-op">=</span> <span class="code-op">{</span></div>
+              <div class="code-indent"><span class="code-key">name</span><span class="code-op">:</span> <span class="code-str">"Harshad Jariwala"</span><span class="code-op">,</span></div>
+              <div class="code-indent"><span class="code-key">role</span><span class="code-op">:</span> <span class="code-str">"Sr. React Native Developer"</span><span class="code-op">,</span></div>
+              <div class="code-indent"><span class="code-key">location</span><span class="code-op">:</span> <span class="code-str">"Surat, India"</span><span class="code-op">,</span></div>
+              <div class="code-indent"><span class="code-key">experience</span><span class="code-op">:</span> <span class="code-str">"6+ years"</span><span class="code-op">,</span></div>
+              <div class="code-indent"><span class="code-key">apps_delivered</span><span class="code-op">:</span> <span class="code-num">100</span><span class="code-op">,</span></div>
+              <div class="code-indent"><span class="code-key">available</span><span class="code-op">:</span> <span class="code-bool">true</span></div>
+              <div><span class="code-op">}</span></div>
+            </div>
+            <div class="code-badges">
+              <span class="code-badge">React Native</span>
+              <span class="code-badge">React.js</span>
+              <span class="code-badge">Next.js</span>
+              <span class="code-badge">Node.js</span>
+              <span class="code-badge">Firebase</span>
+            </div>
+            <div class="code-status">
+              <span class="dot"></span>
+              Open to opportunities · Remote &amp; Hybrid
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
-  </div>
-
-  <div class="scroll-indicator">
-    <span>Scroll</span>
-    <i class="fa fa-angle-down"></i>
   </div>
 </section>
 
-<!-- ============================================================
-     ABOUT SECTION
-     ============================================================ -->
+<!-- ================================================================
+     ABOUT
+     ================================================================ -->
 <section id="about" class="about-section">
-  <div style="max-width:1200px;margin:0 auto;padding:0 32px;">
-
-    <div class="section-title-wrap reveal">
-      <span class="section-eyebrow">Who I Am</span>
-      <h2 class="section-title">About <span>Me</span></h2>
-      <div class="section-divider"><div class="section-divider-dot"></div></div>
+  <div class="container">
+    <div class="reveal">
+      <div class="section-eyebrow">About Me</div>
+      <h2 class="section-title">Crafting <span class="grad-text-cb">Mobile</span> &amp; <span class="grad-text-ip">Web Experiences</span><br>That Matter</h2>
     </div>
 
-    <div class="about-grid">
+    <div class="about-layout">
+      <div class="about-img-col reveal">
+        <div class="about-img-box">
+          <img src="assets/images/about/profile_image.jpg" alt="Harshad Jariwala — Senior React Native Developer">
+        </div>
+        <div class="about-exp-badge">🏆 6+ Years Experience</div>
+      </div>
+
       <div class="about-text reveal">
-        <h3>Professional React Native &amp; React.js Developer</h3>
         <p>
-          With 6+ years of extensive hands-on experience I build high-quality, scalable,
-          and user-centric digital solutions. My expertise covers React Native mobile apps,
-          React.js, Next.js, Node.js, NestJS, HTML5, CSS3 and RESTful API integration.
+          I'm a Senior React Native &amp; React.js Developer with 6+ years of extensive
+          hands-on experience in building high-quality, scalable, and user-centric digital solutions.
         </p>
         <p>
-          Passionate about transforming complex ideas into intuitive user interfaces,
-          I have successfully delivered <strong style="color:var(--accent-cyan)">100+ mobile applications</strong>
-          across various industries — crafting seamless experiences that engage and retain users.
+          My expertise includes React Native mobile app development, web development with React.js
+          and Next.js, Node.js backend services, NestJS, Firebase, and RESTful API integration.
+          I specialize in developing high-performance mobile applications for both Android and iOS.
+        </p>
+        <p>
+          Passionate about transforming complex ideas into intuitive interfaces, I have successfully
+          delivered <strong style="color:var(--text-white)">100+ mobile applications</strong> across
+          various industries — crafting seamless user experiences that engage and retain users.
         </p>
 
-        <div class="about-info-cards">
-          <div class="about-info-item">
-            <i class="fa fa-envelope-o"></i>
-            <span>harshadjariwala1998@gmail.com</span>
+        <div class="about-feature-grid">
+          <div class="glass-card feat-card">
+            <div class="feat-icon">📱</div>
+            <div class="feat-title">Mobile Development</div>
+            <div class="feat-desc">React Native apps for Android &amp; iOS with native performance</div>
           </div>
-          <div class="about-info-item">
-            <i class="fa fa-globe"></i>
-            <span>harshadjariwala.github.io</span>
+          <div class="glass-card feat-card">
+            <div class="feat-icon">🌐</div>
+            <div class="feat-title">Web Development</div>
+            <div class="feat-desc">React.js, Next.js responsive web applications</div>
           </div>
-          <div class="about-info-item">
-            <i class="fa fa-map-marker"></i>
-            <span>Surat, Gujarat, India</span>
+          <div class="glass-card feat-card">
+            <div class="feat-icon">⚡</div>
+            <div class="feat-title">Performance</div>
+            <div class="feat-desc">Optimised, fast-loading apps with great UX</div>
+          </div>
+          <div class="glass-card feat-card">
+            <div class="feat-icon">🔗</div>
+            <div class="feat-title">API Integration</div>
+            <div class="feat-desc">RESTful APIs, Firebase, Node.js, NestJS</div>
           </div>
         </div>
-
-        <div class="about-chips">
-          <span class="chip">React Native</span>
-          <span class="chip">React.js</span>
-          <span class="chip">Next.js</span>
-          <span class="chip">Node.js</span>
-          <span class="chip">NestJS</span>
-          <span class="chip">JavaScript</span>
-          <span class="chip">Firebase</span>
-          <span class="chip">RESTful APIs</span>
-        </div>
-
-        <div class="about-social">
-          <a href="#" class="social-icon-btn" title="LinkedIn"><i class="fa fa-linkedin"></i></a>
-          <a href="#" class="social-icon-btn" title="GitHub"><i class="fa fa-github"></i></a>
-          <a href="#" class="social-icon-btn" title="Twitter"><i class="fa fa-twitter"></i></a>
-          <a href="#" class="social-icon-btn" title="Instagram"><i class="fa fa-instagram"></i></a>
-        </div>
       </div>
-
-      <div class="about-img-wrap reveal">
-        <div class="about-img-ring"></div>
-        <div class="about-img-ring about-img-ring-2"></div>
-        <img src="assets/images/about/profile_image.jpg" alt="Harshad Jariwala - Profile Photo">
-      </div>
-    </div>
-
-  </div>
-</section>
-
-<!-- ============================================================
-     EDUCATION SECTION
-     ============================================================ -->
-<section id="education" class="education-section">
-  <div style="max-width:1200px;margin:0 auto;padding:0 32px;">
-
-    <div class="section-title-wrap reveal">
-      <span class="section-eyebrow">My Background</span>
-      <h2 class="section-title">Edu<span>cation</span></h2>
-      <div class="section-divider"><div class="section-divider-dot"></div></div>
-    </div>
-
-    <div class="education-cards">
-
-      <div class="glass-card edu-card reveal">
-        <span class="edu-year">2019 – 2020</span>
-        <h3>.NET Technology Course</h3>
-        <h4>TOPS Technologies</h4>
-        <p class="edu-place"><i class="fa fa-map-marker"></i> Surat, Gujarat, India</p>
-        <p>Hands-on training in ASP.NET &amp; .NET Core with real-time project experience,
-           job-oriented curriculum and placement assistance.</p>
-      </div>
-
-      <div class="glass-card edu-card reveal">
-        <span class="edu-year">2016 – 2019</span>
-        <h3>Bachelor of Engineering</h3>
-        <h4>Computer Engineering</h4>
-        <p class="edu-place"><i class="fa fa-map-marker"></i> Mahavir Swami Institute of Technology, Surat</p>
-        <p>Four-year undergraduate program focused on design, development and implementation
-           of computer systems and software, blending hardware and software knowledge.</p>
-      </div>
-
-      <div class="glass-card edu-card reveal">
-        <span class="edu-year">2013 – 2016</span>
-        <h3>Diploma in Computer Engineering</h3>
-        <h4>Computer Engineering</h4>
-        <p class="edu-place"><i class="fa fa-map-marker"></i> Mahavir Swami Institute of Technology, Surat</p>
-        <p>Three-year program covering computer systems, networking, operating systems,
-           databases and mobile computing — preparing for the tech industry.</p>
-      </div>
-
     </div>
   </div>
 </section>
 
-<!-- ============================================================
-     SKILLS SECTION
-     ============================================================ -->
+<!-- ================================================================
+     SKILLS
+     ================================================================ -->
 <section id="skills" class="skills-section">
-  <div style="max-width:1200px;margin:0 auto;padding:0 32px;">
-
-    <div class="section-title-wrap reveal">
-      <span class="section-eyebrow">What I Know</span>
-      <h2 class="section-title">My <span>Skills</span></h2>
-      <div class="section-divider"><div class="section-divider-dot"></div></div>
+  <div class="container">
+    <div class="skills-header reveal">
+      <div class="section-eyebrow">Technical Expertise</div>
+      <h2 class="section-title">Skills &amp; <span class="grad-text-cb">Technologies</span></h2>
+      <p class="section-sub">Technologies I use to build modern digital experiences.</p>
     </div>
 
-    <div class="skills-grid">
-      <!-- Left Column -->
-      <div class="reveal">
-        <div class="skill-item">
-          <div class="skill-header">
-            <span class="skill-name">JavaScript (ES6+)</span>
-            <span class="skill-pct">90%</span>
-          </div>
-          <div class="skill-track"><div class="skill-bar" data-width="90"></div></div>
-        </div>
-        <div class="skill-item">
-          <div class="skill-header">
-            <span class="skill-name">React.js</span>
-            <span class="skill-pct">85%</span>
-          </div>
-          <div class="skill-track"><div class="skill-bar" data-width="85"></div></div>
-        </div>
-        <div class="skill-item">
-          <div class="skill-header">
-            <span class="skill-name">HTML5 / CSS3</span>
-            <span class="skill-pct">83%</span>
-          </div>
-          <div class="skill-track"><div class="skill-bar" data-width="83"></div></div>
-        </div>
-        <div class="skill-item">
-          <div class="skill-header">
-            <span class="skill-name">Figma / Adobe XD</span>
-            <span class="skill-pct">90%</span>
-          </div>
-          <div class="skill-track"><div class="skill-bar" data-width="90"></div></div>
-        </div>
-        <div class="skill-item">
-          <div class="skill-header">
-            <span class="skill-name">NestJS</span>
-            <span class="skill-pct">70%</span>
-          </div>
-          <div class="skill-track"><div class="skill-bar" data-width="70"></div></div>
-        </div>
-        <div class="skill-item">
-          <div class="skill-header">
-            <span class="skill-name">Photoshop</span>
-            <span class="skill-pct">60%</span>
-          </div>
-          <div class="skill-track"><div class="skill-bar" data-width="60"></div></div>
-        </div>
+    <div class="reveal">
+      <div class="skill-tabs" id="skillTabs">
+        <button class="skill-tab active" data-panel="frontend">Frontend</button>
+        <button class="skill-tab" data-panel="mobile">Mobile</button>
+        <button class="skill-tab" data-panel="backend">Backend &amp; APIs</button>
+        <button class="skill-tab" data-panel="tools">Tools &amp; Cloud</button>
+        <button class="skill-tab" data-panel="design">Design</button>
       </div>
 
-      <!-- Right Column -->
-      <div class="reveal">
-        <div class="skill-item">
-          <div class="skill-header">
-            <span class="skill-name">React Native</span>
-            <span class="skill-pct">90%</span>
-          </div>
-          <div class="skill-track"><div class="skill-bar" data-width="90"></div></div>
-        </div>
-        <div class="skill-item">
-          <div class="skill-header">
-            <span class="skill-name">Firebase</span>
-            <span class="skill-pct">85%</span>
-          </div>
-          <div class="skill-track"><div class="skill-bar" data-width="85"></div></div>
-        </div>
-        <div class="skill-item">
-          <div class="skill-header">
-            <span class="skill-name">RESTful APIs</span>
-            <span class="skill-pct">90%</span>
-          </div>
-          <div class="skill-track"><div class="skill-bar" data-width="90"></div></div>
-        </div>
-        <div class="skill-item">
-          <div class="skill-header">
-            <span class="skill-name">Node.js</span>
-            <span class="skill-pct">70%</span>
-          </div>
-          <div class="skill-track"><div class="skill-bar" data-width="70"></div></div>
-        </div>
-        <div class="skill-item">
-          <div class="skill-header">
-            <span class="skill-name">Google Cloud</span>
-            <span class="skill-pct">67%</span>
-          </div>
-          <div class="skill-track"><div class="skill-bar" data-width="67"></div></div>
-        </div>
-        <div class="skill-item">
-          <div class="skill-header">
-            <span class="skill-name">Communication</span>
-            <span class="skill-pct">93%</span>
-          </div>
-          <div class="skill-track"><div class="skill-bar" data-width="93"></div></div>
-        </div>
+      <!-- Frontend -->
+      <div class="skill-panel active" id="panel-frontend">
+        <div class="skill-badge"><div class="skill-badge-name">React.js</div><div class="skill-badge-bar"><div class="skill-badge-fill" data-w="85"></div></div></div>
+        <div class="skill-badge"><div class="skill-badge-name">Next.js</div><div class="skill-badge-bar"><div class="skill-badge-fill" data-w="80"></div></div></div>
+        <div class="skill-badge"><div class="skill-badge-name">JavaScript (ES6+)</div><div class="skill-badge-bar"><div class="skill-badge-fill" data-w="90"></div></div></div>
+        <div class="skill-badge"><div class="skill-badge-name">TypeScript</div><div class="skill-badge-bar"><div class="skill-badge-fill" data-w="75"></div></div></div>
+        <div class="skill-badge"><div class="skill-badge-name">HTML5</div><div class="skill-badge-bar"><div class="skill-badge-fill" data-w="90"></div></div></div>
+        <div class="skill-badge"><div class="skill-badge-name">CSS3</div><div class="skill-badge-bar"><div class="skill-badge-fill" data-w="83"></div></div></div>
+        <div class="skill-badge"><div class="skill-badge-name">Redux Toolkit</div><div class="skill-badge-bar"><div class="skill-badge-fill" data-w="78"></div></div></div>
+        <div class="skill-badge"><div class="skill-badge-name">React Query</div><div class="skill-badge-bar"><div class="skill-badge-fill" data-w="72"></div></div></div>
+      </div>
+
+      <!-- Mobile -->
+      <div class="skill-panel" id="panel-mobile">
+        <div class="skill-badge"><div class="skill-badge-name">React Native</div><div class="skill-badge-bar"><div class="skill-badge-fill" data-w="90"></div></div></div>
+        <div class="skill-badge"><div class="skill-badge-name">Expo</div><div class="skill-badge-bar"><div class="skill-badge-fill" data-w="85"></div></div></div>
+        <div class="skill-badge"><div class="skill-badge-name">React Navigation</div><div class="skill-badge-bar"><div class="skill-badge-fill" data-w="88"></div></div></div>
+        <div class="skill-badge"><div class="skill-badge-name">Native Modules</div><div class="skill-badge-bar"><div class="skill-badge-fill" data-w="70"></div></div></div>
+        <div class="skill-badge"><div class="skill-badge-name">Push Notifications</div><div class="skill-badge-bar"><div class="skill-badge-fill" data-w="80"></div></div></div>
+        <div class="skill-badge"><div class="skill-badge-name">App Store / Play Store</div><div class="skill-badge-bar"><div class="skill-badge-fill" data-w="82"></div></div></div>
+      </div>
+
+      <!-- Backend -->
+      <div class="skill-panel" id="panel-backend">
+        <div class="skill-badge"><div class="skill-badge-name">Node.js</div><div class="skill-badge-bar"><div class="skill-badge-fill" data-w="70"></div></div></div>
+        <div class="skill-badge"><div class="skill-badge-name">NestJS</div><div class="skill-badge-bar"><div class="skill-badge-fill" data-w="65"></div></div></div>
+        <div class="skill-badge"><div class="skill-badge-name">RESTful APIs</div><div class="skill-badge-bar"><div class="skill-badge-fill" data-w="90"></div></div></div>
+        <div class="skill-badge"><div class="skill-badge-name">Firebase</div><div class="skill-badge-bar"><div class="skill-badge-fill" data-w="85"></div></div></div>
+        <div class="skill-badge"><div class="skill-badge-name">Express.js</div><div class="skill-badge-bar"><div class="skill-badge-fill" data-w="68"></div></div></div>
+        <div class="skill-badge"><div class="skill-badge-name">MongoDB</div><div class="skill-badge-bar"><div class="skill-badge-fill" data-w="60"></div></div></div>
+      </div>
+
+      <!-- Tools -->
+      <div class="skill-panel" id="panel-tools">
+        <div class="skill-badge"><div class="skill-badge-name">Google Cloud</div><div class="skill-badge-bar"><div class="skill-badge-fill" data-w="67"></div></div></div>
+        <div class="skill-badge"><div class="skill-badge-name">Git / GitHub</div><div class="skill-badge-bar"><div class="skill-badge-fill" data-w="88"></div></div></div>
+        <div class="skill-badge"><div class="skill-badge-name">Bitbucket</div><div class="skill-badge-bar"><div class="skill-badge-fill" data-w="80"></div></div></div>
+        <div class="skill-badge"><div class="skill-badge-name">VS Code</div><div class="skill-badge-bar"><div class="skill-badge-fill" data-w="95"></div></div></div>
+        <div class="skill-badge"><div class="skill-badge-name">Postman</div><div class="skill-badge-bar"><div class="skill-badge-fill" data-w="82"></div></div></div>
+        <div class="skill-badge"><div class="skill-badge-name">Jira / Trello</div><div class="skill-badge-bar"><div class="skill-badge-fill" data-w="75"></div></div></div>
+      </div>
+
+      <!-- Design -->
+      <div class="skill-panel" id="panel-design">
+        <div class="skill-badge"><div class="skill-badge-name">Figma</div><div class="skill-badge-bar"><div class="skill-badge-fill" data-w="88"></div></div></div>
+        <div class="skill-badge"><div class="skill-badge-name">Adobe XD</div><div class="skill-badge-bar"><div class="skill-badge-fill" data-w="85"></div></div></div>
+        <div class="skill-badge"><div class="skill-badge-name">Photoshop</div><div class="skill-badge-bar"><div class="skill-badge-fill" data-w="60"></div></div></div>
+        <div class="skill-badge"><div class="skill-badge-name">UI/UX Design</div><div class="skill-badge-bar"><div class="skill-badge-fill" data-w="80"></div></div></div>
+        <div class="skill-badge"><div class="skill-badge-name">Prototyping</div><div class="skill-badge-bar"><div class="skill-badge-fill" data-w="75"></div></div></div>
       </div>
     </div>
-
   </div>
 </section>
 
-<!-- ============================================================
-     EXPERIENCE SECTION
-     ============================================================ -->
+<!-- ================================================================
+     EXPERIENCE
+     ================================================================ -->
 <section id="experience" class="experience-section">
-  <div style="max-width:1200px;margin:0 auto;padding:0 32px;">
-
-    <div class="section-title-wrap reveal">
-      <span class="section-eyebrow">My Journey</span>
-      <h2 class="section-title">Work Exper<span>ience</span></h2>
-      <div class="section-divider"><div class="section-divider-dot"></div></div>
+  <div class="container">
+    <div class="reveal">
+      <div class="section-eyebrow">Experience</div>
+      <h2 class="section-title">Professional <span class="grad-text-ip">Journey</span></h2>
+      <p class="section-sub">Where I've applied my skills to deliver real results.</p>
     </div>
 
-    <div class="timeline">
+    <div class="exp-timeline reveal">
 
-      <!-- Experience 1 -->
-      <div class="tl-item reveal">
-        <div class="tl-left">
-          <div class="glass-card tl-card">
-            <p class="tl-role">Senior React Native Developer</p>
-            <p class="tl-company">KRTYA TECHNOLOGIES</p>
-            <p class="tl-location"><i class="fa fa-map-marker"></i> Surat, Gujarat, India</p>
-            <p class="tl-desc">Leading the mobile development team, architecting complex React Native
-               applications for international clients, optimising performance for native-like
-               experiences on Android and iOS.</p>
-          </div>
-        </div>
-        <div class="tl-center">
-          <div class="tl-dot"></div>
-          <span class="tl-year">2023 – Present</span>
-        </div>
-        <div class="tl-right"></div>
+      <!-- Item 1 -->
+      <div class="exp-line-col">
+        <div class="exp-dot"></div>
+        <div class="exp-line"></div>
       </div>
-
-      <!-- Experience 2 -->
-      <div class="tl-item reveal">
-        <div class="tl-left"></div>
-        <div class="tl-center">
-          <div class="tl-dot"></div>
-          <span class="tl-year">2022 – 2023</span>
-        </div>
-        <div class="tl-right">
-          <div class="glass-card tl-card">
-            <p class="tl-role">React Native Developer</p>
-            <p class="tl-company">KRTYA TECHNOLOGIES</p>
-            <p class="tl-location"><i class="fa fa-map-marker"></i> Surat, Gujarat, India</p>
-            <p class="tl-desc">Developed functional mobile apps, troubleshot common React Native issues,
-               and contributed to a team delivering cross-platform mobile solutions.</p>
+      <div class="exp-card-col">
+        <div class="glass-card exp-card">
+          <div class="exp-card-top">
+            <div class="exp-role">Senior React Native Developer</div>
+            <span class="exp-badge-current">Current</span>
+          </div>
+          <div class="exp-company">KRTYA Technologies Pvt. Ltd.</div>
+          <div class="exp-meta">
+            <span>📍 Surat, India</span>
+            <span>📅 2023 – Present</span>
+          </div>
+          <div class="exp-points">
+            <div class="exp-point"><span class="exp-arrow">→</span><span>Architected and developed 20+ high-performance React Native applications for Android and iOS, serving thousands of active users</span></div>
+            <div class="exp-point"><span class="exp-arrow">→</span><span>Led the mobile development team, conducting code reviews and establishing consistent development standards</span></div>
+            <div class="exp-point"><span class="exp-arrow">→</span><span>Integrated RESTful APIs, Firebase, push notifications and third-party SDKs to support real-time data synchronization</span></div>
+            <div class="exp-point"><span class="exp-arrow">→</span><span>Improved app performance by 40% through component optimisation, memory management and efficient state handling</span></div>
+            <div class="exp-point"><span class="exp-arrow">→</span><span>Collaborated with designers, backend developers and stakeholders to deliver 10+ production releases on schedule</span></div>
           </div>
         </div>
       </div>
 
-      <!-- Experience 3 -->
-      <div class="tl-item reveal">
-        <div class="tl-left">
-          <div class="glass-card tl-card">
-            <p class="tl-role">React Native Developer</p>
-            <p class="tl-company">KRTYA TECHNOLOGIES</p>
-            <p class="tl-location"><i class="fa fa-map-marker"></i> Surat, Gujarat, India</p>
-            <p class="tl-desc">Began the React Native journey — learned the paradigm, Expo workflow,
-               platform APIs and built first production-ready mobile apps.</p>
-          </div>
-        </div>
-        <div class="tl-center">
-          <div class="tl-dot"></div>
-          <span class="tl-year">2021 – 2022</span>
-        </div>
-        <div class="tl-right"></div>
+      <!-- Item 2 -->
+      <div class="exp-line-col">
+        <div class="exp-dot"></div>
+        <div class="exp-line"></div>
       </div>
-
-      <!-- Experience 4 -->
-      <div class="tl-item reveal">
-        <div class="tl-left"></div>
-        <div class="tl-center">
-          <div class="tl-dot"></div>
-          <span class="tl-year">2020 – 2021</span>
-        </div>
-        <div class="tl-right">
-          <div class="glass-card tl-card">
-            <p class="tl-role">Frontend Developer</p>
-            <p class="tl-company">KRTYA TECHNOLOGIES</p>
-            <p class="tl-location"><i class="fa fa-map-marker"></i> Surat, Gujarat, India</p>
-            <p class="tl-desc">Started with React JS building single-page web applications,
-               dynamic user interfaces and integrating RESTful APIs for real-world projects.</p>
+      <div class="exp-card-col">
+        <div class="glass-card exp-card">
+          <div class="exp-card-top">
+            <div class="exp-role">React Native Developer</div>
+          </div>
+          <div class="exp-company">KRTYA Technologies Pvt. Ltd.</div>
+          <div class="exp-meta">
+            <span>📍 Surat, India</span>
+            <span>📅 2022 – 2023</span>
+          </div>
+          <div class="exp-points">
+            <div class="exp-point"><span class="exp-arrow">→</span><span>Developed functional cross-platform mobile apps using React Native, contributing to team-delivered projects</span></div>
+            <div class="exp-point"><span class="exp-arrow">→</span><span>Built reusable UI components and scalable frontend structures to improve code maintainability</span></div>
+            <div class="exp-point"><span class="exp-arrow">→</span><span>Integrated 15+ RESTful APIs for authentication, user management and dynamic content workflows</span></div>
+            <div class="exp-point"><span class="exp-arrow">→</span><span>Improved app load time by 30% through code optimisation and efficient rendering techniques</span></div>
           </div>
         </div>
       </div>
 
-    </div><!-- /.timeline -->
+      <!-- Item 3 -->
+      <div class="exp-line-col">
+        <div class="exp-dot"></div>
+        <div class="exp-line"></div>
+      </div>
+      <div class="exp-card-col">
+        <div class="glass-card exp-card">
+          <div class="exp-card-top">
+            <div class="exp-role">React Native Developer</div>
+          </div>
+          <div class="exp-company">KRTYA Technologies Pvt. Ltd.</div>
+          <div class="exp-meta">
+            <span>📍 Surat, India</span>
+            <span>📅 2021 – 2022</span>
+          </div>
+          <div class="exp-points">
+            <div class="exp-point"><span class="exp-arrow">→</span><span>Started React Native journey — mastered the framework paradigm, Expo workflow and platform APIs</span></div>
+            <div class="exp-point"><span class="exp-arrow">→</span><span>Delivered first production mobile applications with smooth UI and reliable core functionality</span></div>
+            <div class="exp-point"><span class="exp-arrow">→</span><span>Worked closely with senior developers to implement best practices in component architecture</span></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Item 4 -->
+      <div class="exp-line-col">
+        <div class="exp-dot"></div>
+        <div class="exp-line" style="background:none;"></div>
+      </div>
+      <div class="exp-card-col">
+        <div class="glass-card exp-card">
+          <div class="exp-card-top">
+            <div class="exp-role">Frontend Developer</div>
+          </div>
+          <div class="exp-company">KRTYA Technologies Pvt. Ltd.</div>
+          <div class="exp-meta">
+            <span>📍 Surat, India</span>
+            <span>📅 2020 – 2021</span>
+          </div>
+          <div class="exp-points">
+            <div class="exp-point"><span class="exp-arrow">→</span><span>Built responsive single-page web applications with React.js, integrating dynamic data and API workflows</span></div>
+            <div class="exp-point"><span class="exp-arrow">→</span><span>Developed clean, maintainable component-based UIs following modern frontend architecture principles</span></div>
+            <div class="exp-point"><span class="exp-arrow">→</span><span>Collaborated with backend developers to integrate RESTful APIs and ensure seamless data flow</span></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
   </div>
 </section>
 
-<!-- ============================================================
-     PROFILES SECTION
-     ============================================================ -->
-<section id="profiles" class="profiles-section">
-  <div style="max-width:1200px;margin:0 auto;padding:0 32px;">
-
-    <div class="section-title-wrap reveal">
-      <span class="section-eyebrow">Find Me Online</span>
-      <h2 class="section-title">My <span>Profiles</span></h2>
-      <div class="section-divider"><div class="section-divider-dot"></div></div>
-    </div>
-
-    <div class="profiles-grid reveal">
-      <a href="#" class="glass-card profile-card" id="profile-linkedin">
-        <i class="fa fa-linkedin"></i>
-        <span>LinkedIn</span>
-      </a>
-      <a href="#" class="glass-card profile-card" id="profile-github">
-        <i class="fa fa-github"></i>
-        <span>GitHub</span>
-      </a>
-      <a href="#" class="glass-card profile-card" id="profile-twitter">
-        <i class="fa fa-twitter"></i>
-        <span>Twitter</span>
-      </a>
-      <a href="#" class="glass-card profile-card" id="profile-bitbucket">
-        <i class="fa fa-bitbucket"></i>
-        <span>BitBucket</span>
-      </a>
-    </div>
-
-  </div>
-</section>
-
-<!-- ============================================================
-     PORTFOLIO SECTION
-     ============================================================ -->
+<!-- ================================================================
+     PORTFOLIO
+     ================================================================ -->
 <section id="portfolio" class="portfolio-section">
-  <div style="max-width:1200px;margin:0 auto;padding:0 32px;">
-
-    <div class="section-title-wrap reveal">
-      <span class="section-eyebrow">My Work</span>
-      <h2 class="section-title">Port<span>folio</span></h2>
-      <div class="section-divider"><div class="section-divider-dot"></div></div>
+  <div class="container">
+    <div class="reveal">
+      <div class="section-eyebrow">My Work</div>
+      <h2 class="section-title">Featured <span class="grad-text-cb">Projects</span></h2>
+      <p class="section-sub">A selection of mobile and web products I've built.</p>
     </div>
 
     <div class="portfolio-grid">
 
-      <div class="portfolio-item reveal">
-        <img src="assets/images/portfolio/slpl.png" alt="SLPS VAPI Community App">
-        <div class="portfolio-overlay">
-          <span>SLPS VAPI Community App</span>
+      <div class="glass-card port-card reveal">
+        <div class="port-emoji">🏘️</div>
+        <div class="port-title">SLPS VAPI Community App</div>
+        <div class="port-desc">A community management platform built with React Native for the SLPS VAPI society — featuring event listings, announcements and member management.</div>
+        <div class="port-tags">
+          <span class="port-tag">React Native</span>
+          <span class="port-tag">Firebase</span>
+          <span class="port-tag">Node.js</span>
+        </div>
+        <div class="port-links">
+          <a href="#" class="port-link"><i class="fa fa-eye"></i> View</a>
         </div>
       </div>
 
-      <div class="portfolio-item reveal">
-        <img src="assets/images/portfolio/bingo.png" alt="Bingo App">
-        <div class="portfolio-overlay">
-          <span>BINGO App</span>
+      <div class="glass-card port-card reveal">
+        <div class="port-emoji">🎮</div>
+        <div class="port-title">BINGO App</div>
+        <div class="port-desc">An interactive Bingo game application with real-time multiplayer support, animated game board and in-app rewards built with React Native.</div>
+        <div class="port-tags">
+          <span class="port-tag">React Native</span>
+          <span class="port-tag">WebSockets</span>
+          <span class="port-tag">Firebase</span>
+        </div>
+        <div class="port-links">
+          <a href="#" class="port-link"><i class="fa fa-eye"></i> View</a>
         </div>
       </div>
 
-      <div class="portfolio-item reveal">
-        <img src="assets/images/portfolio/music.png" alt="Music App">
-        <div class="portfolio-overlay">
-          <span>Music App</span>
+      <div class="glass-card port-card reveal">
+        <div class="port-emoji">🎵</div>
+        <div class="port-title">Music App</div>
+        <div class="port-desc">A cross-platform music streaming application featuring audio playback, playlists, offline support and smooth native animations.</div>
+        <div class="port-tags">
+          <span class="port-tag">React Native</span>
+          <span class="port-tag">Audio API</span>
+          <span class="port-tag">Redux</span>
+        </div>
+        <div class="port-links">
+          <a href="#" class="port-link"><i class="fa fa-eye"></i> View</a>
         </div>
       </div>
 
-      <div class="portfolio-item reveal">
-        <img src="assets/images/portfolio/transtutors.png" alt="Transtutors">
-        <div class="portfolio-overlay">
-          <span>Transtutors — Homework Help Q&amp;A</span>
+      <div class="glass-card port-card reveal">
+        <div class="port-emoji">📚</div>
+        <div class="port-title">Transtutors — Q&amp;A App</div>
+        <div class="port-desc">Homework help and Q&amp;A platform with real-time expert matching, rich text answers and notification system for students worldwide.</div>
+        <div class="port-tags">
+          <span class="port-tag">React Native</span>
+          <span class="port-tag">REST APIs</span>
+          <span class="port-tag">Push Notifications</span>
+        </div>
+        <div class="port-links">
+          <a href="#" class="port-link"><i class="fa fa-eye"></i> View</a>
         </div>
       </div>
 
-      <div class="portfolio-item reveal">
-        <img src="assets/images/portfolio/website2.png" alt="International Company Website">
-        <div class="portfolio-overlay">
-          <span>Professional Website for an International Company</span>
+      <div class="glass-card port-card reveal">
+        <div class="port-emoji">🌍</div>
+        <div class="port-title">International Company Website</div>
+        <div class="port-desc">A professional, responsive web presence built for an international company with React.js featuring smooth animations and modern design.</div>
+        <div class="port-tags">
+          <span class="port-tag">React.js</span>
+          <span class="port-tag">Next.js</span>
+          <span class="port-tag">CSS3</span>
+        </div>
+        <div class="port-links">
+          <a href="#" class="port-link"><i class="fa fa-eye"></i> View</a>
         </div>
       </div>
 
-      <div class="portfolio-item reveal">
-        <img src="assets/images/portfolio/website1.png" alt="Developing Webpage">
-        <div class="portfolio-overlay">
-          <span>Developing Webpage</span>
+      <div class="glass-card port-card reveal">
+        <div class="port-emoji">💼</div>
+        <div class="port-title">Corporate Web Application</div>
+        <div class="port-desc">A scalable enterprise web application with dynamic dashboards, data visualisations and role-based access control built with React.js.</div>
+        <div class="port-tags">
+          <span class="port-tag">React.js</span>
+          <span class="port-tag">Node.js</span>
+          <span class="port-tag">REST APIs</span>
+        </div>
+        <div class="port-links">
+          <a href="#" class="port-link"><i class="fa fa-eye"></i> View</a>
         </div>
       </div>
 
@@ -493,254 +492,318 @@
   </div>
 </section>
 
-<!-- ============================================================
-     CONTACT SECTION
-     ============================================================ -->
-<section id="contact" class="contact-section">
-  <div style="max-width:1200px;margin:0 auto;padding:0 32px;">
+<!-- ================================================================
+     EDUCATION
+     ================================================================ -->
+<section id="education" class="education-section">
+  <div class="container">
+    <div class="reveal">
+      <div class="section-eyebrow">My Background</div>
+      <h2 class="section-title">Edu<span class="grad-text-ip">cation</span></h2>
+      <p class="section-sub">Academic foundations that shaped my technical journey.</p>
+    </div>
 
-    <div class="section-title-wrap reveal">
-      <span class="section-eyebrow">Get In Touch</span>
-      <h2 class="section-title">Contact <span>Us</span></h2>
-      <div class="section-divider"><div class="section-divider-dot"></div></div>
+    <div class="edu-grid">
+      <div class="glass-card edu-card reveal">
+        <span class="edu-year-pill">2019 – 2020</span>
+        <div class="edu-degree">.NET Technology Course</div>
+        <div class="edu-inst">TOPS Technologies</div>
+        <div class="edu-place">📍 Surat, Gujarat, India</div>
+        <div class="edu-desc">Hands-on training in ASP.NET &amp; .NET Core with real-time project experience, job-oriented curriculum and placement assistance.</div>
+      </div>
+      <div class="glass-card edu-card reveal">
+        <span class="edu-year-pill">2016 – 2019</span>
+        <div class="edu-degree">Bachelor of Engineering</div>
+        <div class="edu-inst">Mahavir Swami Institute of Technology</div>
+        <div class="edu-place">📍 Surat, Gujarat, India</div>
+        <div class="edu-desc">Computer Engineering — four-year undergraduate program focused on design, development and implementation of computer systems and software.</div>
+      </div>
+      <div class="glass-card edu-card reveal">
+        <span class="edu-year-pill">2013 – 2016</span>
+        <div class="edu-degree">Diploma in Computer Engineering</div>
+        <div class="edu-inst">Mahavir Swami Institute of Technology</div>
+        <div class="edu-place">📍 Surat, Gujarat, India</div>
+        <div class="edu-desc">Three-year program covering computer systems, networking, operating systems, databases and mobile computing — foundation for the tech industry.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================================================================
+     PROFILES
+     ================================================================ -->
+<section id="profiles" class="profiles-section">
+  <div class="container">
+    <div class="reveal">
+      <div class="section-eyebrow">Find Me Online</div>
+      <h2 class="section-title">My <span class="grad-text-cb">Profiles</span></h2>
+      <p class="section-sub">Connect with me across platforms.</p>
+    </div>
+
+    <div class="profiles-row reveal">
+      <a href="#" class="profile-pill" id="profile-linkedin">
+        <i class="fa fa-linkedin" style="color:var(--indigo)"></i>
+        LinkedIn
+      </a>
+      <a href="#" class="profile-pill" id="profile-github">
+        <i class="fa fa-github" style="color:var(--text-white)"></i>
+        GitHub
+      </a>
+      <a href="#" class="profile-pill" id="profile-twitter">
+        <i class="fa fa-twitter" style="color:var(--cyan)"></i>
+        Twitter
+      </a>
+      <a href="#" class="profile-pill" id="profile-bitbucket">
+        <i class="fa fa-bitbucket" style="color:var(--purple)"></i>
+        BitBucket
+      </a>
+      <a href="#" class="profile-pill" id="profile-instagram">
+        <i class="fa fa-instagram" style="color:#f472b6"></i>
+        Instagram
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ================================================================
+     CONTACT
+     ================================================================ -->
+<section id="contact" class="contact-section">
+  <div class="container">
+    <div class="reveal">
+      <div class="section-eyebrow">Get In Touch</div>
+      <h2 class="section-title">Let's Build Something <span class="grad-text-cb">Great Together</span></h2>
+      <p class="section-sub">Have a project, freelance opportunity, or a role that matches my skills? Let's connect.</p>
     </div>
 
     <div class="contact-layout">
 
       <!-- Left: Info -->
-      <div class="contact-info reveal">
-        <h3>Let's Build Something <span class="grad-text">Amazing</span> Together</h3>
-        <p>
-          Have a project in mind or just want to say hello? Fill out the form
-          and I'll get back to you as soon as possible. I'm always open to
-          discussing new opportunities and ideas.
-        </p>
+      <div class="reveal">
+        <div class="contact-talk-title">Let's Talk</div>
+        <div class="contact-talk-desc">
+          I'm always open to discussing new projects, creative ideas, or
+          opportunities to be part of your vision.
+        </div>
 
-        <div class="contact-details">
-          <div class="contact-detail-item">
-            <div class="contact-icon"><i class="fa fa-envelope-o"></i></div>
-            <div class="detail-text">
-              <span>Email</span>
-              <strong>harshadjariwala1998@gmail.com</strong>
+        <div class="contact-items">
+          <div class="contact-item">
+            <div class="ci-icon"><i class="fa fa-envelope-o"></i></div>
+            <div>
+              <div class="ci-label">Email</div>
+              <div class="ci-value">harshadjariwala1998@gmail.com</div>
             </div>
           </div>
-          <div class="contact-detail-item">
-            <div class="contact-icon"><i class="fa fa-globe"></i></div>
-            <div class="detail-text">
-              <span>Website</span>
-              <strong>harshadjariwala.github.io</strong>
+          <div class="contact-item">
+            <div class="ci-icon"><i class="fa fa-globe"></i></div>
+            <div>
+              <div class="ci-label">Website</div>
+              <div class="ci-value">harshadjariwala.github.io</div>
             </div>
           </div>
-          <div class="contact-detail-item">
-            <div class="contact-icon"><i class="fa fa-map-marker"></i></div>
-            <div class="detail-text">
-              <span>Location</span>
-              <strong>Surat, Gujarat, India</strong>
+          <div class="contact-item">
+            <div class="ci-icon"><i class="fa fa-map-marker"></i></div>
+            <div>
+              <div class="ci-label">Location</div>
+              <div class="ci-value">Surat, Gujarat, India</div>
             </div>
           </div>
         </div>
 
-        <div class="about-social">
-          <a href="#" class="social-icon-btn" title="LinkedIn"><i class="fa fa-linkedin"></i></a>
-          <a href="#" class="social-icon-btn" title="GitHub"><i class="fa fa-github"></i></a>
-          <a href="#" class="social-icon-btn" title="Twitter"><i class="fa fa-twitter"></i></a>
-          <a href="#" class="social-icon-btn" title="Instagram"><i class="fa fa-instagram"></i></a>
+        <div class="social-row">
+          <a href="#" class="social-btn" title="LinkedIn"><i class="fa fa-linkedin"></i></a>
+          <a href="#" class="social-btn" title="GitHub"><i class="fa fa-github"></i></a>
+          <a href="#" class="social-btn" title="Globe"><i class="fa fa-globe"></i></a>
+          <a href="#" class="social-btn" title="Twitter"><i class="fa fa-twitter"></i></a>
+          <a href="#" class="social-btn" title="Instagram"><i class="fa fa-instagram"></i></a>
         </div>
       </div>
 
-      <!-- Right: Contact Form -->
-      <div class="glass-card contact-form-wrap reveal">
-        <h4>Send a Message ✉️</h4>
+      <!-- Right: Form -->
+      <div class="glass-card contact-form-card reveal">
 
         <form id="contactForm" novalidate>
-
-          <div class="form-row">
-            <div class="form-group">
+          <div class="form-row-2">
+            <div class="form-field">
               <label for="fullName">Full Name *</label>
               <input
                 type="text"
                 id="fullName"
                 name="fullName"
-                class="form-control-modern"
-                placeholder="e.g. John Doe"
+                class="form-input"
+                placeholder="John Doe"
                 required
               >
             </div>
-            <div class="form-group">
+            <div class="form-field">
               <label for="emailAddress">Email Address *</label>
               <input
                 type="email"
                 id="emailAddress"
                 name="emailAddress"
-                class="form-control-modern"
-                placeholder="e.g. john@example.com"
+                class="form-input"
+                placeholder="john@example.com"
                 required
               >
             </div>
           </div>
 
-          <div class="form-group">
+          <div class="form-field">
             <label for="subject">Subject *</label>
             <input
               type="text"
               id="subject"
               name="subject"
-              class="form-control-modern"
-              placeholder="e.g. Project Collaboration"
+              class="form-input"
+              placeholder="Project Collaboration / Job Opportunity"
               required
             >
           </div>
 
-          <div class="form-group">
+          <div class="form-field">
             <label for="message">Message *</label>
             <textarea
               id="message"
               name="message"
-              class="form-control-modern"
-              placeholder="Tell me about your project or inquiry..."
+              class="form-input"
+              placeholder="Tell me about your project or opportunity..."
               required
             ></textarea>
           </div>
 
-          <button type="submit" class="btn-submit" id="btn-contact-submit">
+          <button type="submit" class="btn-send" id="btn-send">
             <i class="fa fa-paper-plane-o"></i> Send Message
           </button>
 
-          <div class="form-success-msg" id="formSuccess">
+          <div class="form-success" id="formSuccess">
             <i class="fa fa-check-circle"></i>
             Your message was sent successfully! I'll get back to you soon.
           </div>
-
         </form>
-      </div>
 
+      </div>
     </div>
   </div>
 </section>
 
-<!-- ============================================================
+<!-- ================================================================
      FOOTER
-     ============================================================ -->
-<footer class="modern-footer">
-  <div style="max-width:1200px;margin:0 auto;padding:0 32px;">
-    <p>© 2026 — Designed &amp; Developed by <a href="#home">Harshad Jariwala</a></p>
+     ================================================================ -->
+<footer class="site-footer">
+  <div class="container">
+    <p>© 2026 <a href="#home">Harshad Jariwala</a> — All rights reserved. Built with ❤️ in Surat, India.</p>
   </div>
 </footer>
 
-<!-- Back to Top -->
-<a href="#home" class="back-to-top" id="backToTop" title="Back to top">
+<!-- Back to top -->
+<a href="#home" class="back-top" id="backTop" title="Back to top">
   <i class="fa fa-angle-up"></i>
 </a>
 
-<!-- ============================================================
-     SCRIPTS
-     ============================================================ -->
+<!-- ================================================================
+     JAVASCRIPT
+     ================================================================ -->
 <script>
-  /* ---- Navbar scroll effect ---- */
-  const nav = document.getElementById('mainNav');
-  const backToTop = document.getElementById('backToTop');
+/* ---- Navbar ---- */
+const siteNav = document.getElementById('siteNav');
+const backTop = document.getElementById('backTop');
 
-  window.addEventListener('scroll', () => {
-    if (window.scrollY > 60) {
-      nav.classList.add('scrolled');
-      backToTop.classList.add('visible');
-    } else {
-      nav.classList.remove('scrolled');
-      backToTop.classList.remove('visible');
-    }
+window.addEventListener('scroll', () => {
+  const sy = window.scrollY;
+  siteNav.classList.toggle('scrolled', sy > 50);
+  backTop.classList.toggle('show', sy > 400);
 
-    /* Active nav link highlight */
-    const sections = document.querySelectorAll('section[id]');
-    let current = '';
-    sections.forEach(sec => {
-      if (window.scrollY >= sec.offsetTop - 120) current = sec.getAttribute('id');
-    });
-    document.querySelectorAll('.nav-links a').forEach(a => {
-      a.classList.toggle('active', a.getAttribute('href') === '#' + current);
-    });
+  /* Active nav link */
+  const sections = document.querySelectorAll('section[id]');
+  let current = 'home';
+  sections.forEach(s => { if (sy >= s.offsetTop - 120) current = s.id; });
+  document.querySelectorAll('.nav-link').forEach(a => {
+    a.classList.toggle('active', a.getAttribute('href') === '#' + current);
   });
+});
 
-  /* ---- Hamburger toggle ---- */
-  const hamburger = document.getElementById('hamburger');
-  const navLinks  = document.getElementById('navLinks');
-  hamburger.addEventListener('click', () => {
-    navLinks.classList.toggle('open');
+/* ---- Hamburger ---- */
+const hamburger = document.getElementById('hamburger');
+const navLinks  = document.getElementById('navLinks');
+hamburger.addEventListener('click', () => navLinks.classList.toggle('open'));
+navLinks.querySelectorAll('a').forEach(a => a.addEventListener('click', () => navLinks.classList.remove('open')));
+
+/* ---- Smooth scroll ---- */
+document.querySelectorAll('a[href^="#"]').forEach(a => {
+  a.addEventListener('click', e => {
+    const t = document.querySelector(a.getAttribute('href'));
+    if (t) { e.preventDefault(); t.scrollIntoView({ behavior: 'smooth', block: 'start' }); }
   });
-  navLinks.querySelectorAll('a').forEach(a => {
-    a.addEventListener('click', () => navLinks.classList.remove('open'));
-  });
+});
 
-  /* ---- Smooth scroll for anchors ---- */
-  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', e => {
-      const target = document.querySelector(anchor.getAttribute('href'));
-      if (target) {
-        e.preventDefault();
-        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
-      }
-    });
-  });
+/* ---- Reveal on scroll ---- */
+const revObs = new IntersectionObserver(entries => {
+  entries.forEach(en => { if (en.isIntersecting) { en.target.classList.add('visible'); revObs.unobserve(en.target); } });
+}, { threshold: 0.1 });
+document.querySelectorAll('.reveal').forEach(el => revObs.observe(el));
 
-  /* ---- Reveal on scroll (IntersectionObserver) ---- */
-  const revealObserver = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('visible');
-        revealObserver.unobserve(entry.target);
-      }
-    });
-  }, { threshold: 0.12 });
-
-  document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
-
-  /* ---- Skill bars animation ---- */
-  const skillObserver = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.querySelectorAll('.skill-bar').forEach(bar => {
-          const w = bar.getAttribute('data-width');
-          bar.style.width = w + '%';
+/* ---- Skill tabs ---- */
+const tabs = document.querySelectorAll('.skill-tab');
+tabs.forEach(tab => {
+  tab.addEventListener('click', () => {
+    tabs.forEach(t => t.classList.remove('active'));
+    tab.classList.add('active');
+    document.querySelectorAll('.skill-panel').forEach(p => p.classList.remove('active'));
+    const panel = document.getElementById('panel-' + tab.dataset.panel);
+    if (panel) {
+      panel.classList.add('active');
+      // animate bars
+      panel.querySelectorAll('.skill-badge-fill').forEach(bar => {
+        bar.style.width = '0';
+        requestAnimationFrame(() => {
+          setTimeout(() => { bar.style.width = bar.dataset.w + '%'; }, 50);
         });
-        skillObserver.unobserve(entry.target);
-      }
-    });
-  }, { threshold: 0.3 });
-
-  document.querySelectorAll('.skills-grid > div').forEach(el => skillObserver.observe(el));
-
-  /* ---- Contact Form ---- */
-  const form        = document.getElementById('contactForm');
-  const successMsg  = document.getElementById('formSuccess');
-
-  form.addEventListener('submit', e => {
-    e.preventDefault();
-
-    /* Basic validation */
-    const fields = form.querySelectorAll('[required]');
-    let valid = true;
-    fields.forEach(f => {
-      if (!f.value.trim()) {
-        valid = false;
-        f.style.borderColor = '#f87171';
-        f.addEventListener('input', () => f.style.borderColor = '', { once: true });
-      }
-    });
-
-    if (!valid) return;
-
-    /* Simulate async send */
-    const submitBtn = document.getElementById('btn-contact-submit');
-    submitBtn.innerHTML = '<i class="fa fa-spinner fa-spin"></i> Sending...';
-    submitBtn.disabled = true;
-
-    setTimeout(() => {
-      form.reset();
-      submitBtn.innerHTML = '<i class="fa fa-paper-plane-o"></i> Send Message';
-      submitBtn.disabled = false;
-      successMsg.style.display = 'flex';
-      setTimeout(() => { successMsg.style.display = 'none'; }, 6000);
-    }, 1800);
+      });
+    }
   });
+});
+
+/* ---- Skill bar animation on scroll ---- */
+const skillObs = new IntersectionObserver(entries => {
+  entries.forEach(en => {
+    if (en.isIntersecting) {
+      en.target.querySelectorAll('.skill-badge-fill').forEach(bar => {
+        bar.style.width = bar.dataset.w + '%';
+      });
+      skillObs.unobserve(en.target);
+    }
+  });
+}, { threshold: 0.2 });
+document.querySelectorAll('.skill-panel').forEach(p => skillObs.observe(p));
+
+/* ---- Contact Form ---- */
+const form       = document.getElementById('contactForm');
+const successMsg = document.getElementById('formSuccess');
+const sendBtn    = document.getElementById('btn-send');
+
+form.addEventListener('submit', e => {
+  e.preventDefault();
+  let valid = true;
+  form.querySelectorAll('[required]').forEach(f => {
+    if (!f.value.trim()) {
+      valid = false;
+      f.classList.add('error');
+      f.addEventListener('input', () => f.classList.remove('error'), { once: true });
+    }
+  });
+  if (!valid) return;
+
+  sendBtn.innerHTML = '<i class="fa fa-spinner fa-spin"></i> Sending…';
+  sendBtn.disabled = true;
+
+  setTimeout(() => {
+    form.reset();
+    sendBtn.innerHTML = '<i class="fa fa-paper-plane-o"></i> Send Message';
+    sendBtn.disabled = false;
+    successMsg.style.display = 'flex';
+    setTimeout(() => { successMsg.style.display = 'none'; }, 6000);
+  }, 2000);
+});
 </script>
 
 </body>
